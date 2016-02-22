@@ -1,0 +1,60 @@
+img {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+body {
+  background-color: floralwhite;
+  color: #3f049f;
+}
+main {
+  width: 1180px;
+  max-width: 94%;
+  margin: 0 auto;
+  background-color: azure;
+  padding: 3%;
+}
+.blocGauche,
+.blocDroite {
+  width: 45%;
+}
+.blocGauche {
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+}
+.blocDroite {
+  float: right;
+  margin-left: 10px;
+}
+.wrapper {
+  border: 1px solid navy;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clearfix {
+  display: block;
+}
+html[xmlns] .clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
+}
+@media screen and (max-width: 999px) {
+  .blocGauche,
+  .blocDroite {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
