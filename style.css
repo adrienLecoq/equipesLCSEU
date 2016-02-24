@@ -1,3 +1,11 @@
+header p {
+  width: 25%;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: black;
+}
 img {
   width: 500px;
   max-width: 100%;
@@ -8,14 +16,14 @@ h1 {
   margin-bottom: 30px;
 }
 body {
-  background-color: floralwhite;
-  color: #3f049f;
+  background-color: #c1bfbf;
+  color: #ffffff;
 }
 main {
   width: 1180px;
   max-width: 94%;
   margin: 0 auto;
-  background-color: azure;
+  background-color: #000000;
   padding: 3%;
 }
 .blocGauche,
@@ -31,9 +39,13 @@ main {
   float: right;
   margin-left: 10px;
 }
+h1 {
+  font-size: 3rem;
+}
 .intro {
   font-style: italic;
   text-align: right;
+  color: #ff8c00;
 }
 .wrapper {
   border: 1px solid navy;
